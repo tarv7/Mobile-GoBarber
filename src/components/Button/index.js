@@ -10,7 +10,7 @@ const Button = ({ children, loading, ...rest }) => {
   return (
     <Container {...rest}>
       {loading ? (
-        <ActivityIndicator size="email" color="#fff" />
+        <ActivityIndicator size="small" color="#FFF" />
       ) : (
         <Text>{children}</Text>
       )}
