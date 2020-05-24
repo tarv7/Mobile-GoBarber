@@ -27,7 +27,7 @@ const Appointment = ({ data, onCancel }) => {
 
         <Info>
           <Name>{data.provider.name}</Name>
-          <Time>em 3 horas</Time>
+          <Time>{dateParsed}</Time>
         </Info>
       </Left>
 
